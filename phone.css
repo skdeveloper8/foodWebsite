@@ -1,0 +1,53 @@
+/* utility classes */
+.h-primary{
+    
+    font-size: 1.95rem;
+  
+ }
+
+/* navbar */
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 0.79rem;
+    
+}
+
+/* home section */
+
+#home{
+    height: 472px;
+}
+#home::before{
+    height: 613px;
+
+}
+#home p{
+    font-size: 1.25rem;
+}
+
+/* services section */
+
+#services{
+    flex-direction: column;
+}
+
+/* clients section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#client-section h1{
+    color: black;
+ }
+
+#client-section::before{
+    background-image: none;
+    /* height: 219.5%; */
+    /* height: 93.5%; */
+    /* height: 131.5%; */
+    /* height: 103.5%; */
+}
